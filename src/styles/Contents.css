@@ -1,0 +1,63 @@
+.assets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.asset-block {
+    border-radius: 10px;
+    display: flex;
+    height: 80px;
+    background-color: rgba(245, 245, 245,0.5);
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.left-column {
+    margin: 10px 10px;
+}
+
+.asset-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.asset-changes {
+    margin: 10px;
+}
+
+.asset-delete {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: background 0.2s ease, opacity .15s ease;
+    box-sizing: border-box; 
+    border: 0;
+    margin: 3px 3px 0 0; 
+    border-radius: 50%;
+}
+
+.asset-delete svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.asset-delete:hover {
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%; 
+}
+
+.asset-changes {
+    font-weight: bold;
+}

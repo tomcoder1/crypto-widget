@@ -1,0 +1,28 @@
+.title-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    height: 30px;
+    background-color: rgba(220, 220, 220, 0.1);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-section {
+    margin-right: 3px;
+}
+.btn {
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 2px;
+    color: rgb(80, 80, 80);
+}
+
+.btn:hover {
+    background-color: rgba(113, 113, 113, 0.638);
+    border-radius: 1px;
+}
