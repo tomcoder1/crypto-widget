@@ -14,7 +14,7 @@ fn main() {
             let menu = Menu::with_items(app, &[&quit])?;
             TrayIconBuilder::with_id("main-tray")
                 .icon(app.default_window_icon().cloned().expect("missing tray.png"))
-                .tooltip("toggle-mode-widget")
+                .tooltip("crypto-widget")
                 .menu(&menu) 
                 .on_menu_event(|app, e| {
                     if e.id() == "quit" {
