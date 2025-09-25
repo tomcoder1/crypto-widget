@@ -30,7 +30,6 @@ export default function App() {
     return (
         <div>
             <TitleBar />
-            <header className="title"> Cryptocurrencies </header> 
             <Contents selectedAssets={selectedAssets} onDelete={deleteAsset}/>
             <AddAsset onSelect={selectAsset}/>
         </div>
